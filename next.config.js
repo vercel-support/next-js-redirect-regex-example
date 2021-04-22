@@ -6,7 +6,7 @@ module.exports = {
         has: [
           {
             type: 'host',
-            value: '(?<a>.*)\.(?<b>.*)\.(?<c>.*)',
+            value: '.*\..*\..*',
           },
         ],
         destination: '/new/:a/:b/:c', // Matched parameters can be used in the destination
